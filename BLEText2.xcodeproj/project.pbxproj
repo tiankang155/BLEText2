@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D611CFFB1FB0601300E6EEB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611CFFA1FB0601300E6EEB8 /* AppDelegate.swift */; };
+		D611CFFD1FB0601300E6EEB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611CFFC1FB0601300E6EEB8 /* ViewController.swift */; };
+		D611D0001FB0601300E6EEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611CFFE1FB0601300E6EEB8 /* Main.storyboard */; };
+		D611D0021FB0601300E6EEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D611D0011FB0601300E6EEB8 /* Assets.xcassets */; };
+		D611D0051FB0601300E6EEB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611D0031FB0601300E6EEB8 /* LaunchScreen.storyboard */; };
+		D611D0101FB0601300E6EEB8 /* BLEText2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611D00F1FB0601300E6EEB8 /* BLEText2Tests.swift */; };
+		D611D01B1FB0601400E6EEB8 /* BLEText2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611D01A1FB0601400E6EEB8 /* BLEText2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D611D00C1FB0601300E6EEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D611CFEF1FB0601300E6EEB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D611CFF61FB0601300E6EEB8;
+			remoteInfo = BLEText2;
+		};
+		D611D0171FB0601400E6EEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D611CFEF1FB0601300E6EEB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D611CFF61FB0601300E6EEB8;
+			remoteInfo = BLEText2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D611CFF71FB0601300E6EEB8 /* BLEText2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEText2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D611CFFA1FB0601300E6EEB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D611CFFC1FB0601300E6EEB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D611CFFF1FB0601300E6EEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D611D0011FB0601300E6EEB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D611D0041FB0601300E6EEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D611D0061FB0601300E6EEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D611D00B1FB0601300E6EEB8 /* BLEText2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEText2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D611D00F1FB0601300E6EEB8 /* BLEText2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEText2Tests.swift; sourceTree = "<group>"; };
+		D611D0111FB0601300E6EEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D611D0161FB0601400E6EEB8 /* BLEText2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEText2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D611D01A1FB0601400E6EEB8 /* BLEText2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEText2UITests.swift; sourceTree = "<group>"; };
+		D611D01C1FB0601400E6EEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D611CFF41FB0601300E6EEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D611D0081FB0601300E6EEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D611D0131FB0601400E6EEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D611CFEE1FB0601300E6EEB8 = {
+			isa = PBXGroup;
+			children = (
+				D611CFF91FB0601300E6EEB8 /* BLEText2 */,
+				D611D00E1FB0601300E6EEB8 /* BLEText2Tests */,
+				D611D0191FB0601400E6EEB8 /* BLEText2UITests */,
+				D611CFF81FB0601300E6EEB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D611CFF81FB0601300E6EEB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D611CFF71FB0601300E6EEB8 /* BLEText2.app */,
+				D611D00B1FB0601300E6EEB8 /* BLEText2Tests.xctest */,
+				D611D0161FB0601400E6EEB8 /* BLEText2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D611CFF91FB0601300E6EEB8 /* BLEText2 */ = {
+			isa = PBXGroup;
+			children = (
+				D611CFFA1FB0601300E6EEB8 /* AppDelegate.swift */,
+				D611CFFC1FB0601300E6EEB8 /* ViewController.swift */,
+				D611CFFE1FB0601300E6EEB8 /* Main.storyboard */,
+				D611D0011FB0601300E6EEB8 /* Assets.xcassets */,
+				D611D0031FB0601300E6EEB8 /* LaunchScreen.storyboard */,
+				D611D0061FB0601300E6EEB8 /* Info.plist */,
+			);
+			path = BLEText2;
+			sourceTree = "<group>";
+		};
+		D611D00E1FB0601300E6EEB8 /* BLEText2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D611D00F1FB0601300E6EEB8 /* BLEText2Tests.swift */,
+				D611D0111FB0601300E6EEB8 /* Info.plist */,
+			);
+			path = BLEText2Tests;
+			sourceTree = "<group>";
+		};
+		D611D0191FB0601400E6EEB8 /* BLEText2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D611D01A1FB0601400E6EEB8 /* BLEText2UITests.swift */,
+				D611D01C1FB0601400E6EEB8 /* Info.plist */,
+			);
+			path = BLEText2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D611CFF61FB0601300E6EEB8 /* BLEText2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D611D01F1FB0601400E6EEB8 /* Build configuration list for PBXNativeTarget "BLEText2" */;
+			buildPhases = (
+				D611CFF31FB0601300E6EEB8 /* Sources */,
+				D611CFF41FB0601300E6EEB8 /* Frameworks */,
+				D611CFF51FB0601300E6EEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEText2;
+			productName = BLEText2;
+			productReference = D611CFF71FB0601300E6EEB8 /* BLEText2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D611D00A1FB0601300E6EEB8 /* BLEText2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D611D0221FB0601400E6EEB8 /* Build configuration list for PBXNativeTarget "BLEText2Tests" */;
+			buildPhases = (
+				D611D0071FB0601300E6EEB8 /* Sources */,
+				D611D0081FB0601300E6EEB8 /* Frameworks */,
+				D611D0091FB0601300E6EEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D611D00D1FB0601300E6EEB8 /* PBXTargetDependency */,
+			);
+			name = BLEText2Tests;
+			productName = BLEText2Tests;
+			productReference = D611D00B1FB0601300E6EEB8 /* BLEText2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D611D0151FB0601400E6EEB8 /* BLEText2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D611D0251FB0601400E6EEB8 /* Build configuration list for PBXNativeTarget "BLEText2UITests" */;
+			buildPhases = (
+				D611D0121FB0601400E6EEB8 /* Sources */,
+				D611D0131FB0601400E6EEB8 /* Frameworks */,
+				D611D0141FB0601400E6EEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D611D0181FB0601400E6EEB8 /* PBXTargetDependency */,
+			);
+			name = BLEText2UITests;
+			productName = BLEText2UITests;
+			productReference = D611D0161FB0601400E6EEB8 /* BLEText2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D611CFEF1FB0601300E6EEB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Tiankang;
+				TargetAttributes = {
+					D611CFF61FB0601300E6EEB8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D611D00A1FB0601300E6EEB8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D611CFF61FB0601300E6EEB8;
+					};
+					D611D0151FB0601400E6EEB8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D611CFF61FB0601300E6EEB8;
+					};
+				};
+			};
+			buildConfigurationList = D611CFF21FB0601300E6EEB8 /* Build configuration list for PBXProject "BLEText2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D611CFEE1FB0601300E6EEB8;
+			productRefGroup = D611CFF81FB0601300E6EEB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D611CFF61FB0601300E6EEB8 /* BLEText2 */,
+				D611D00A1FB0601300E6EEB8 /* BLEText2Tests */,
+				D611D0151FB0601400E6EEB8 /* BLEText2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D611CFF51FB0601300E6EEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D611D0051FB0601300E6EEB8 /* LaunchScreen.storyboard in Resources */,
+				D611D0021FB0601300E6EEB8 /* Assets.xcassets in Resources */,
+				D611D0001FB0601300E6EEB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D611D0091FB0601300E6EEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D611D0141FB0601400E6EEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D611CFF31FB0601300E6EEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D611CFFD1FB0601300E6EEB8 /* ViewController.swift in Sources */,
+				D611CFFB1FB0601300E6EEB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D611D0071FB0601300E6EEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D611D0101FB0601300E6EEB8 /* BLEText2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D611D0121FB0601400E6EEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D611D01B1FB0601400E6EEB8 /* BLEText2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D611D00D1FB0601300E6EEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D611CFF61FB0601300E6EEB8 /* BLEText2 */;
+			targetProxy = D611D00C1FB0601300E6EEB8 /* PBXContainerItemProxy */;
+		};
+		D611D0181FB0601400E6EEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D611CFF61FB0601300E6EEB8 /* BLEText2 */;
+			targetProxy = D611D0171FB0601400E6EEB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D611CFFE1FB0601300E6EEB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D611CFFF1FB0601300E6EEB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D611D0031FB0601300E6EEB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D611D0041FB0601300E6EEB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D611D01D1FB0601400E6EEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D611D01E1FB0601400E6EEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D611D0201FB0601400E6EEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 472NSGF5D7;
+				INFOPLIST_FILE = BLEText2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tian.BLEText2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D611D0211FB0601400E6EEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 472NSGF5D7;
+				INFOPLIST_FILE = BLEText2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tian.BLEText2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D611D0231FB0601400E6EEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 472NSGF5D7;
+				INFOPLIST_FILE = BLEText2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tian.BLEText2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLEText2.app/BLEText2";
+			};
+			name = Debug;
+		};
+		D611D0241FB0601400E6EEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 472NSGF5D7;
+				INFOPLIST_FILE = BLEText2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tian.BLEText2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLEText2.app/BLEText2";
+			};
+			name = Release;
+		};
+		D611D0261FB0601400E6EEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 472NSGF5D7;
+				INFOPLIST_FILE = BLEText2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tian.BLEText2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLEText2;
+			};
+			name = Debug;
+		};
+		D611D0271FB0601400E6EEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 472NSGF5D7;
+				INFOPLIST_FILE = BLEText2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tian.BLEText2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLEText2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D611CFF21FB0601300E6EEB8 /* Build configuration list for PBXProject "BLEText2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D611D01D1FB0601400E6EEB8 /* Debug */,
+				D611D01E1FB0601400E6EEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D611D01F1FB0601400E6EEB8 /* Build configuration list for PBXNativeTarget "BLEText2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D611D0201FB0601400E6EEB8 /* Debug */,
+				D611D0211FB0601400E6EEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D611D0221FB0601400E6EEB8 /* Build configuration list for PBXNativeTarget "BLEText2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D611D0231FB0601400E6EEB8 /* Debug */,
+				D611D0241FB0601400E6EEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D611D0251FB0601400E6EEB8 /* Build configuration list for PBXNativeTarget "BLEText2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D611D0261FB0601400E6EEB8 /* Debug */,
+				D611D0271FB0601400E6EEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D611CFEF1FB0601300E6EEB8 /* Project object */;
+}
