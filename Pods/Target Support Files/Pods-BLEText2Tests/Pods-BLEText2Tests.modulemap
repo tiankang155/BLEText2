@@ -1,0 +1,6 @@
+framework module Pods_BLEText2Tests {
+  umbrella header "Pods-BLEText2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
